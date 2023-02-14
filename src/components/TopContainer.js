@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { BiSearchAlt } from 'react-icons/bi';
 import { FaBell, FaChevronDown } from 'react-icons/fa';
-import Women from '../image/women.jpg';
+import imgMan from '../image/ducanh.jpg';
 
 const TopContainer = () => {
   useEffect(() => {
@@ -32,9 +32,9 @@ const TopContainer = () => {
           <FaBell />
         </i>
         <div className="profileImage">
-          <img src={Women} alt="" />
+          <img src={imgMan} alt="" />
         </div>
-        <p className="profileName">Olivia Christine</p>
+        <p className="profileName">Duc Anh</p>
         <i className="menuChevron" id="menuChevron">
           <FaChevronDown />
         </i>
